@@ -2,6 +2,15 @@
 
 # Changelog
 
+## [0.3.13](https://github.com/langchain-ai/deepagents/compare/langchain-quickjs==0.3.12...langchain-quickjs==0.3.13) (2026-11-11)
+
+
+### Features
+
+* **quickjs:** add `writeFile`, `readdir`, `access`, and `rm` to `fs` ([#7638](https://github.com/langchain-ai/deepagents/issues/7638)) ([0cef0a8](https://github.com/langchain-ai/deepagents/commit/0cef0a8e3ec34de25e826305dce076b86cedc8bb))
+* **quickjs:** add an opt-in `fs.readFile` over the agent's backend ([#7637](https://github.com/langchain-ai/deepagents/issues/7637)) ([e4c8748](https://github.com/langchain-ai/deepagents/commit/e4c8748d4cc5fd86c5569d82464927912524bd67))
+* **quickjs:** let `fs=True` use the agent's backend ([#7669](https://github.com/langchain-ai/deepagents/issues/7669)) ([94657a4](https://github.com/langchain-ai/deepagents/commit/94657a47f8d47acfc17c19157f823b7bdd902994))
+
 ## [0.3.12](https://github.com/langchain-ai/deepagents/compare/langchain-quickjs==0.3.11...langchain-quickjs==0.3.12) (2026-11-07)
 
 ### Features
